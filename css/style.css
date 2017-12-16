@@ -1,0 +1,104 @@
+body{
+  font: 15px/1.5 sans-serif, Arial, Helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+/* --Colores--
+2D384C - azul oscuro
+F15C3D - naranja
+6CBBE5 - azul cielo
+*/
+/* --Global-- */
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* --Header-- */
+header{
+  background: #2D384C;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #F15C3D 6px solid;
+}
+
+header a{
+  color: #6CBBE5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+/*
+header #branding{
+  float: left;
+}
+*/
+header #branding img{
+  width: 20%;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #F15C3D;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*   --Showcase--  */
+#showcase{
+  min-height: 500px;
+  background: url('../img/protesisnino.jpg') no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: #2D384C 50px solid;
+}
+
+#showcase h1{
+  font-size: 45px;
+}
+
+#showcase p{
+  font-size: 25px;
+}
+
+/*  --Boxes--  */
+
+#boxes{
+  margin-top: 20px
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 90px;
+}
